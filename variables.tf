@@ -14,6 +14,12 @@
  * limitations under the License.
  */
 
+
+variable "custom_project_id" {
+  description = "Custom project id if not using random_project_id"
+  default     = ""
+}
+
 variable "random_project_id" {
   description = "Enables project random id generation"
   default     = "false"
